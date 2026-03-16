@@ -1,8 +1,14 @@
 {
   "functions": {
-    "api/webhook.js": {
+    "api/check-submissions.js": {
       "memory": 128,
       "maxDuration": 10
     }
-  }
+  },
+  "crons": [
+    {
+      "path": "/api/check-submissions",
+      "schedule": "*/5 * * * *"
+    }
+  ]
 }
