@@ -35,8 +35,8 @@ export default async function handler(req, res) {
     });
 
     const mailOptions = {
-      from: `"Aerial Fun & Fitness Alerts" <${process.env.GMAIL_USER}>`,
-      to: 'zina@zinaditonno.com',
+      from: `"Aerial Waiver Collection Form" <${process.env.GMAIL_USER}>`,
+      to: 'ma.elena.arambala@gmail.com',
       subject: `New Waiver Submission: ${subscriberName} just signed up!`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; background: #f9f9f9;">
