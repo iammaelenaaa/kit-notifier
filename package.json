@@ -1,0 +1,11 @@
+{
+  "name": "kit-notifier",
+  "version": "1.0.0",
+  "description": "Kit form submission email notifier for Aerial Fun & Fitness",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.9"
+  }
+}
